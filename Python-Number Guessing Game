@@ -1,0 +1,17 @@
+print("Welcome to the number guessing game")
+print(f"Just type any number and guess it😁")
+
+while_Running = True
+secret = 69 # You can change this anytime
+while while_Running:
+    number=int(input("Please Enter a number:"))
+
+    if number==secret:
+         print("🎉You got the Correct Number")
+         while_Running = False
+    elif abs(number - secret)<=2:
+         print("😩You're Close")
+    elif number > secret:
+         print("😅Too High!")
+    elif number < secret:
+         print("😅Too Low!")
