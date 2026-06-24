@@ -1,0 +1,21 @@
+print("Welcome to the Grade Checker")
+grade = float(input("Please Enter your Grade😎:"))
+
+if 90 <= grade <= 100:   # is just the same as if grade >= 90 and grade is <=100
+    print("Your Grade is: A")
+    print("You Passed✅")
+elif 80<= grade <= 89:
+    print("Your Grade is: B")
+    print("You Passed✅")
+elif 70<= grade <= 79:
+    print("Your Grade is: C")
+    print("You Passed✅")
+elif 60<= grade <= 69:
+    print("Your Grade is: D")
+    print("You Passed✅")
+elif grade <= 59:
+    print("Your Grade is: F")
+    print("You Failed🥲")
+else:
+    print("Invalid Grade, please enter a valid grade")
+
