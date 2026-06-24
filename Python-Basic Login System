@@ -1,0 +1,17 @@
+correct_User = "admin"
+correct_Password = "admin1234"
+attempt = 3
+
+while attempt > 0:
+    username = input("Please enter your username: ")
+    password = input("Please enter your password: ")
+
+    if username == correct_User and password == correct_Password:
+        print("✅You have successfully logged in!")
+        break
+    else:
+        attempt -= 1
+        print(f"😭Wrong credentials! {attempt} attempts left.")
+
+if attempt == 0:
+    print("🔒Too many login attempts please try again later!.")
