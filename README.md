@@ -1,2 +1,2 @@
-# Python-Calculator
-In this calculator it solves the bug of dividing a number to a zero and it works perfectly- This for beginners
+# Python
+In this repository this is where all my python projects/practice codes are stored. Feel free to use it all
