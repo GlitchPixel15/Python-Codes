@@ -1,0 +1,23 @@
+
+firstNum = float(input("Enter first number: "))
+secondNum = float(input("Enter second number: "))
+choice = int(input("1. Add\n2. Subtract\n3. Multiply\n4. Divide\nSelect:"))
+
+if choice == 1:
+    answer = firstNum + secondNum
+    print("The answer is: ", answer)
+elif choice == 2:
+    answer = firstNum - secondNum
+    print("The answer is: ", answer)
+elif choice == 3:
+    answer = firstNum * secondNum
+    print("The answer is: ", answer)
+elif choice == 4:
+    if secondNum == 0:
+        print("Error you cant divide by 0")
+    else:
+        answer = firstNum / secondNum
+        print("The answer is: ", answer)
+else:
+    print("Invalid choice")
+
