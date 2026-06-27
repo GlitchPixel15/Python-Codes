@@ -1,0 +1,5 @@
+print("This is a word counter😁")
+sent = input("Please enter a sentence: ")
+length = len(sent.split())
+
+print(f"You have entered {length} words in total")
