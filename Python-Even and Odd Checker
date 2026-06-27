@@ -1,0 +1,15 @@
+loop = True
+print("Even and Odd checker")
+print("Just type 0 to end the program😁")
+
+while loop:
+    num = int(input("Enter an Integer:"))
+    print("===================================================")
+
+    if num == 0:
+        print("💖Thank you for using the program.....exiting..")
+        loop = False
+    elif num % 2 == 0:
+        print("😎Even")
+    else:
+        print("😁Odd")
